@@ -75,6 +75,7 @@ This is a list of metro cards and transit systems that need support or have part
 | **Go Card**        | 🇦🇺 Gold Coast, QLD, Australia                | MIFARE Classic    |
 | **Intertic**       | 🇫🇷 France, About 21 Cities / Companies       | ST25TB            |
 | **ITSO**           | 🇬🇧 United Kingdom                            | MIFARE DESFire    |
+| **KS X 6924**      | 🇰🇷 South Korea (T-money, Cashbee, Rail+ ...)   | ISO 14443-4A      |
 | **Metromoney**     | 🇬🇪 Tbilisi, Georgia                          | MIFARE Classic    |
 | **myki**           | 🇦🇺 Melbourne (and surrounds), VIC, Australia | MIFARE DESFire    |
 | **Navigo**         | 🇫🇷 Paris, France                             | Calypso           |

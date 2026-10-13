@@ -1,5 +1,12 @@
 ## v2
 
+## KS X 6924 (Korea) Parser
+
+- Replaces the balance-only T-Money reader with a KS X 6924 parser for Korean nationally-compatible transit cards (T-money, Cashbee, Rail+, Mybi, ...)
+- Reads the CONFIG DF / EF_CONFIG (issuer, pre/post-pay, holder type, expiry, card number), EF_PURSE_INFO, balance, additional info files and the SFI 4 transaction log
+- Detects cards by SELECT instead of T-money's historical bytes, so other issuers and phone-emulated cards are recognised
+- Never sends Initialize Card, which would increment the card's transaction counter
+
 ## UI Overhaul
 
 - Custom Main Menu - Canvas-based menu with per-item icons and animated selection highlights (NFC pulse, save arrow, ticket slide, info pulse, sparkle)

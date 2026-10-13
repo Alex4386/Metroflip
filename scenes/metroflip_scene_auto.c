@@ -152,7 +152,7 @@ static NfcCommand
         } else if(
             app->hist_bytes_count >= 2 && app->hist_bytes[0] == 0x04 &&
             app->hist_bytes[1] == 0x09) {
-            app->card_type = "tmoney";
+            app->card_type = "ksx6924";
         } else {
             app->card_type = "atr";
         }
